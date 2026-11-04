@@ -84,7 +84,7 @@
                     </a>
                 </nav>
 
-                <!-- BOTÓN MOBILE MEÚ -->
+                <!-- BOTÓN MOBILE MENU -->
                 <div class="md:hidden flex items-center">
                     <button id="mobile-menu-btn" onclick="toggleMobileMenu()" class="text-slate-300 hover:text-white focus:outline-none">
                         <i class="fa-solid fa-bars text-2xl"></i>
@@ -200,7 +200,7 @@
             <div class="max-w-6xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
                 <!-- CABECERA -->
                 <div class="bg-gradient-to-r from-red-950/60 to-slate-900 border border-red-900/40 rounded-3xl p-6 sm:p-10 mb-10 flex flex-col md:flex-row items-center gap-8 shadow-2xl">
-                    <img src="https://m.media-amazon.com/images/M/MV5BMTI3MTE3ZGQtNWJmMi00MTAzLWI2MzYtZTFiMDRkMzU0ZjE0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Free Fire" class="w-40 sm:w-48 rounded-2xl shadow-xl border border-red-500/30 object-cover">
+                    <img src="frefire.jpg" alt="Free Fire Banner" class="w-40 sm:w-48 rounded-2xl shadow-xl border border-red-500/30 object-cover" onerror="this.onerror=null; this.src='https://m.media-amazon.com/images/M/MV5BMTI3MTE3ZGQtNWJmMi00MTAzLWI2MzYtZTFiMDRkMzU0ZjE0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg';">
                     <div>
                         <span class="bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Recarga Directa por ID</span>
                         <h2 class="text-3xl sm:text-4xl font-black text-white mt-2">Free Fire & Free Fire MAX</h2>
@@ -916,7 +916,6 @@
             }
             updateCartUI();
             
-            // Animación / Apertura suave
             const drawer = document.getElementById('cart-drawer');
             if (drawer.classList.contains('translate-x-full')) {
                 toggleCartDrawer();
@@ -1050,5 +1049,3 @@
     </script>
 </body>
 </html>
-
-```
